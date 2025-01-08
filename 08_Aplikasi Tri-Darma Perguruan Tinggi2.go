@@ -5,6 +5,7 @@ import (
 	"strings"
 )
 
+// "Penelitian" atau "Abdimas"
 type PenelitianAbdimas struct {
 	Ketua      string
 	Anggota    [4]string
@@ -12,7 +13,7 @@ type PenelitianAbdimas struct {
 	Judul      string
 	SumberDana string
 	Luaran     string
-	Jenis      string // "Penelitian" atau "Abdimas"
+	Jenis      string
 	Tahun      int
 }
 
